@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Ejer6 {
 
 	public static void main(String[] args) {
-	double altura;
 	double altura2=0;
 	double alturaMax;
 	double alturaMin;
@@ -28,6 +27,7 @@ while(altura2!=-1) {
 }
 	System.out.println(alturaMin);
 	System.out.println(alturaMax);
+	lectura.close();
 	}
 
 }

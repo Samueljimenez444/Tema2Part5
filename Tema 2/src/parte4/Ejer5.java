@@ -28,5 +28,6 @@ public class Ejer5 {
 		media=suma/contador;
 		System.out.println(edadmayor);
 		System.out.println(media);
+		lectura.close();
 	}
 }
